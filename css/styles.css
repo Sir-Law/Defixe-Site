@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings */
+
+.header-txt {
+    font-size: 2.6rem;
+    line-height: 1.5;
+}
+
+/*   Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar a {
+    color: #0766AD;
+}
+
+.navbar a:hover {
+   color: #5eb2f1;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 11px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Colored Sections */
+
+.colored-sect {
+    color: #0766AD;
+    background-color: white;
+}
+
+.white-sect {
+    background-color: #0766AD;
+    color: white;
+}
+
+/* Title Section*/
+
+#title .container-fluid {
+    padding: 3% 15%;
+}
+
+
+/* Title Image */
+
+.gadgets-img {
+    width: 34%;
+    transform: rotate(25deg);
+    position: absolute; 
+    right: 16%;
+    padding: 0.4% 0;  
+}
+
+@media (max-width: 993px) {
+    #title {
+        text-align: center;
+    }
+    .gadgets-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #footer {
+        text-align: center;
+    }
+}
+
+/* Features */
+
+#features {
+    position: relative;
+    text-align: center;
+}
+
+.feature-txt {
+    font-size: 1.5rem;
+    color: #f1edec;
+}
+
+p {
+    color: #cfcdcd;
+}
+
+.icon {
+    color: #f1edec;
+    padding-bottom: 1.5rem;
+}
+
+.icon:hover{
+    color: #aeadbe;
+}
+
+/*   Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: white;
+}
+
+.testimonial-txt {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    height: 120px;
+    border-radius: 80%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    text-align: center;
+    background-color: #ebe7e6;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col h2, .pricing-col p, .pricing-col h3 {
+    color: #0766AD;
+}
+
+.price-hd-txt {
+    font-size: 1.5rem;
+}
+
+.price-txt {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    color: #0766AD;  
+}
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+}
+
+.cta-txt {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+
